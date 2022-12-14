@@ -1,0 +1,121 @@
+body{
+    background: url("background.jpg") no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+}
+
+div {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+.box{
+	width: 450px;
+	background: rgb(0, 0, 0,)
+	padding;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: white;
+	font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+	border-radius: 50px;
+	width: 200px;
+	height: 200px;
+}
+.box h1{
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.box h5{
+	font-size: 25px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+.box p{
+	text-align: justify;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.box li{
+	display: inline-block;
+	margin: 6px;
+	list-style: none;
+}
+.box li a{
+	color:white;
+	text-decoration: none;
+	font-size: 60px;
+	transition: all ease-in-out 250ms;
+	
+}
+.box li a:hover{
+	color:#b9b9b9;
+}
+.box button{
+	display: block;
+	margin: 40px 0;
+	width: 240px;
+	height: 80px;
+	border: none;
+	background-color: #FFFFFF;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 6px;
+	outline: none;
+	cursor: pointer;
+	transition: .3s linear;
+  }
+  
+  .btn1:hover{
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #FFFFFF;
+  }
+  
+  .btn2:hover{
+	transform: rotateX(30deg);
+	box-shadow: 0 15px 15px #FFFFFF;
+  }
+  
+  .btn3:hover{
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #FFFFFF;
+   }
+   
+   .btn4:hover{
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #FFFFFF;
+   }
+   .play:hover{
+	width: 120px;
+	height: 40px;
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #884EA0;
+   }
+   
+   .big:hover{
+	width: 120px;
+	height: 40px;
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #884EA0;
+   }
+   
+   .small:hover{
+	width: 120px;
+	height: 40px;
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #884EA0;
+   }
+   
+   .normal:hover{
+	width: 120px;
+	height: 40px;
+	transform: rotateX(15deg);
+	box-shadow: 0 15px 15px #884EA0;
+   }

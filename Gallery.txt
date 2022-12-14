@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<script>
+  function showAlert() {
+    alert ("Welcome to my Life");
+  }
+  </script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+    <body onload="showAlert()">
+<div class="box">
+  <img src="5.jpg" alt="" class="box-img">
+  <h2>
+Gallery</h2>
+<p> Hi there! This is me from my childhood to now.</p>
+  <center>
+
+<p>-------------------------------</p>
+<br>
+<img src="1.jpg" alt="" class="box-img">
+<img src="2.jpg" alt="" class="box-img">
+<img src="3.jpg" alt="" class="box-img">
+<img src="4.jpg" alt="" class="box-img">
+<img src="5.jpg" alt="" class="box-img">
+<img src="profile.jpg" alt="" class="box-img">
+  <center>
+
+<p>-------------------------------</p>
+<br>
+<center>
+  
+	<button class="btn btn3"><a href="About Me.html">About Me</a></button>
+    <button class="btn btn4"><a href="Personal Website.html">Personal Website</a></button>
+	<button class="btn btn1"><a href="Home.html">Home</a></button>
+  </center>
+  <center>
+  <p>-------------------------------</p>
+<p> Contact us! </p>
+<center>
+<ul>
+<li><a href="https://www.facebook.com/ivan.hilario.9">Facebook</a></li>
+<li><a href="https://www.instagram.com/aivanhilario">Instagram</a></li>
+<li><a href="mailto:ivan.ashle.hilario@adamson.edu.ph">AdU Mail</a></li>
+<li><a href="tel:09063483816">Phone Number</a></li>
+</ul>
+</div>
+
+</body>
+</html>

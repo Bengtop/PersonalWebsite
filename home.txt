@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+	<script>
+  function showAlert() {
+    alert ("Welcome to my Home page!");
+  }
+  </script>
+    <title>Personal Website</title>
+  </head>
+  <body>
+  <body onload="showAlert()">
+<div class="box">
+  <img src="profile.jpg" alt="" class="box-img">
+  <h2>
+Home</h2>
+<p> I love landscapes, so I put the video of landscapes around the world. </p>
+<p>-------------------------------</p>
+<br>
+<video width="400" height="400" controls>
+  <source src="landscape.mp4" type="video/mp4">
+  <source src="landscape.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+
+<br>
+<p>-------------------------------</p>
+<p> This is my favorite Filipino Song. You should listen to this. </p>
+<p> Simula by Muni-Muni</p>
+<audio controls>
+  <source src="Munimuni - Simula (Official Lyric Video).mp3" type="audio/ogg">
+  <source src="Munimuni - Simula (Official Lyric Video).mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<p>-------------------------------</p>
+<center>
+  <button class="btn btn2"><a href="Gallery.html">Gallery</a></button>
+  <button class="btn btn3"><a href="About Me.html">About Me</a></button>
+    <button class="btn btn4"><a href="Personal Website.html">Personal Website</a></button>
+  </center>
+  <p>-------------------------------</p>
+<p> Contact us! </p>
+<center>
+<ul>
+<li><a href="https://www.facebook.com/ivan.hilario.9">Facebook</a></li>
+<li><a href="https://www.instagram.com/aivanhilario">Instagram</a></li>
+<li><a href="mailto:ivan.ashle.hilario@adamson.edu.ph">AdU Mail</a></li>
+<li><a href="tel:09063483816">Phone Number</a></li>
+</ul>
+</div>
+
+</body>
+</html>
